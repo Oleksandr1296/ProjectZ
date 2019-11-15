@@ -9,11 +9,11 @@ jobs:
       - name: Slack Notification Demo
         uses: bryan-nice/slack-notification@master
         env:
-          SLACK_WEBHOOK: https://hooks.slack.com/services/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
+          SLACK_WEBHOOK: https://hooks.slack.com/services/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
           SLACK_TITLE: 'Slack Notification Demo'
           SLACK_MESSAGE: 'Demo''ing the Slack Notification'
           SLACK_ICON: 'https://github.com/<Github User>.png?size=48'
-          SLACK_CHANNEL: 'demo-channel'
+          SLACK_CHANNEL: 'olkravchukv'
           SLACK_COLOR: '#efefef'
           SLACK_USERNAME: 'demo-bot'
           GITHUB_ACTOR: ${GITHUB_ACTOR}
