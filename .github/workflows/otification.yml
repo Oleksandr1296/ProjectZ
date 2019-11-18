@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@master
     - name: Slack notification
       env:
-        SLACK_WEBHOOK: https://hooks.slack.com/services/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
+        SLACK_WEBHOOK: https://hooks.slack.com/services/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
         SLACK_USERNAME: ThisIsMyUsername # Optional.
         SLACK_CHANNEL: olkravchukv # Optional.
         SLACK_OVERRIDE_MESSAGE: 'Custom message' # Optional
