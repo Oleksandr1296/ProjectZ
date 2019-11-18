@@ -10,3 +10,5 @@ jobs:
       uses: rtCamp/action-slack-notify@master
       env:
         SLACK_WEBHOOK: ${{ secrets.srasda }}
+        SLACK_ICON: https://www.smartdeploy.ai/images/logo.svg
+        SLACK_USERNAME: SmartDeployAI 
