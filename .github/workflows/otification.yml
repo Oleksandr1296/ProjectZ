@@ -12,6 +12,7 @@ jobs:
         SLACK_USERNAME: ThisIsMyUsername # Optional.
         SLACK_CHANNEL: olkravchukv # Optional.
         SLACK_OVERRIDE_MESSAGE: 'Custom message' # Optional
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       uses: Ilshidur/action-slack@master
       with:
         args: 'A new commit has been pushed.'
