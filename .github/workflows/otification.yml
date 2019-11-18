@@ -15,4 +15,4 @@ jobs:
       uses: Ilshidur/action-slack@master
       with:
         args: 'A new commit has been pushed.'
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.Oleksandr3 }}
