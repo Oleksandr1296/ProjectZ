@@ -1,6 +1,4 @@
-on:
-  push:
-  pull_request:
+on: [push,pull_request,issues,issue_comment,fork]
 name: Slack Notification Demo
 jobs:
   slackNotification:
