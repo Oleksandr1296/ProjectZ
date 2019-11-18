@@ -6,12 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Slack notification
+    - name: Notify slack
       env:
-        SLACK_WEBHOOK: https://hooks.slack.com/services/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
-        SLACK_USERNAME: ThisIsMyUsername # Optional.
-        SLACK_CHANNEL: olkravchukv # Optional.
-        SLACK_OVERRIDE_MESSAGE: 'Custom message' # Optional.
-      uses: Ilshidur/action-slack@master
+        SLACK_BOT_TOKEN: xoxb-837872751895-830729473329-X8tDrvRitxarLpge0f4jf0Wh
+      uses: pullreminders/slack-action@master
       with:
-        args: 'A new commit has been pushed.'
+        args: '{\"channel\":\"DQN6PN014\",\"text\":\"Hello world\"}'
