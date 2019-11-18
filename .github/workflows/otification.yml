@@ -11,4 +11,4 @@ jobs:
         SLACK_BOT_TOKEN: xoxb-837872751895-830729473329-X8tDrvRitxarLpge0f4jf0Wh
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"C1234567890\",\"text\":\"Hello world\"}'
+        args: '{\"channel\":\"DQN6PN014\",\"text\":\"Hello world\"}'
