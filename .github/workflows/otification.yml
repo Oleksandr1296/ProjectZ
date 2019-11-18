@@ -10,3 +10,4 @@ jobs:
       uses: rtCamp/action-slack-notify@master
       env:
         SLACK_WEBHOOK: https://hooks.slack.com/services/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
+        SLACK_CHANNEL: general
