@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@master
     - name: Slack notification
       env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_WEBHOOK: ${{ secrets.slak }}
         SLACK_USERNAME: ThisIsMyUsername # Optional.
         SLACK_CHANNEL: olkravchukv # Optional.
         SLACK_OVERRIDE_MESSAGE: 'Custom message' # Optional
