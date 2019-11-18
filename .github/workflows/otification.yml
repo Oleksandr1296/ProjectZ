@@ -8,7 +8,6 @@ jobs:
     - uses: actions/checkout@master
     - name: Slack notification
       env:
-        super_secret: Oeksandr3
         SLACK_WEBHOOK: https://hooks.slack.com/services/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
         SLACK_USERNAME: ThisIsMyUsername # Optional.
         SLACK_CHANNEL: general # Optional.
