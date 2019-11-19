@@ -12,3 +12,4 @@ jobs:
         SLACK_WEBHOOK: ${{ secrets.slaktest }}
         SLACK_ICON: https://www.smartdeploy.ai/images/logo.svg
         SLACK_USERNAME: SmartDeployAI 
+        SLACK_COLOR: '#377ef9'
