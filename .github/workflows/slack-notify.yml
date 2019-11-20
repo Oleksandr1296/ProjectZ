@@ -9,7 +9,7 @@ jobs:
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@master
       env:
-        SLACK_WEBHOOK: ${{ secrets.slaktest }}
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_ICON: https://www.smartdeploy.ai/images/logo.svg
         SLACK_USERNAME: SmartDeployAI 
         SLACK_COLOR: '#377ef9'
